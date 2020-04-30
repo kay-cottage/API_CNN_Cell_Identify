@@ -11,5 +11,5 @@ try:
     print('上传成功')
     print(json.loads(response.text))
 except:
-    print('上传失败，请重新检查重试操作')
+    print('上传失败，请重新检查操作')
 
