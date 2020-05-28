@@ -53,7 +53,7 @@ class Prediction(object):
             count += 1
         print(probability)
         global dic2
-        dic2 = dict(zip(DogType, probability))
+        dic2 = dict(zip(CellType, probability))
         print(dic2)
         return json.dumps(dic2)
 
