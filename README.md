@@ -1,5 +1,13 @@
 # API_CNN_Cell_Identify
-基于Flask构造的的CNN卷积神经网络细胞形态学识别API接口
+
+## 概述
+
+
+* 这是一个基于多种CNN卷积神经网络的深度学习细胞形态学检验识别项目，在拥有12500张血细胞的大型公开数据集BCCD上训练。
+* 目前现有模型包括vgg，ALexnet,xception,CBAM-Xception等神经网络，其中以CBAM-xception等网络已经达到100%的准确率，后续还会推出更多transformer，ResNext101等更多分类网络进行改进
+
+
+目前，基于Flask构造的的CNN卷积神经网络细胞形态学识别已经被封装成API接口
 
 目前能够识别嗜酸性粒细胞，嗜碱性粒细胞，跟中性粒细胞3种！
 
